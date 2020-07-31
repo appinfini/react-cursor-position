@@ -221,7 +221,7 @@ export default class extends React.Component {
         }
     }
 
-    componentWillReceiveProps({ isEnabled: willBeEnabled }) {
+    UNSAFE_componentWillReceiveProps({ isEnabled: willBeEnabled }) {
         const { isEnabled } = this.props;
         const isEnabledWillChange = isEnabled !== willBeEnabled;
 
@@ -472,8 +472,8 @@ export default class extends React.Component {
     }
 
     getPassThroughProps() {
-//         const ownPropNames = Object.keys(this.constructor.propTypes);
-//         return omit(this.props, ownPropNames);
+        // const ownPropNames = Object.keys(this.constructor.propTypes);
+        // return omit(this.props, ownPropNames);
         const ownPropNames = Object.keys(this.constructor.propTypes || {});
         if (ownPropNames.length)
             return omit(this.props, ownPropNames);
