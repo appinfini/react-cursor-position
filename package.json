@@ -1,10 +1,10 @@
 {
-  "name": "react-cursor-position",
+  "name": "@appinfini/react-cursor-position",
   "version": "3.0.31",
   "description": "A React component that decorates its children with touch and mouse cursor coordinates, plotted relative to itself.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ethanselzer/react-cursor-position.git"
+    "url": "git+https://github.com/appinfini/react-cursor-position.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -24,8 +24,8 @@
     "track",
     "follow"
   ],
-  "author": "Ethan Selzer <ethanselzer@gmail.com>",
-  "license": "MIT",
+  "author": "Appinfini Technologies <uma@appinfini.com>",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/ethanselzer/react-cursor-position/issues"
   },
@@ -89,5 +89,9 @@
     "object-assign": "^4.1.1",
     "object.omit": "^3.0.0",
     "prop-types": "^15.6.0"
+  },
+  "directories": {
+    "example": "example",
+    "test": "test"
   }
 }

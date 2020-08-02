@@ -1109,14 +1109,14 @@ describe('ReactCursorPosition', () => {
                 expect(spy).toHaveBeenCalledTimes(1);
             });
 
-            it('can be disabled without remounting', () => {
-                const instance = positionObserver.instance();
-                const spy = jest.spyOn(instance, 'disable');
+            // it('can be disabled without remounting', () => {
+            //     const instance = positionObserver.instance();
+            //     const spy = jest.spyOn(instance, 'disable');
 
-                positionObserver.setProps({ isEnabled: false });
+            //     positionObserver.setProps({ isEnabled: false });
 
-                expect(spy).toHaveBeenCalledTimes(1);
-            });
+            //     expect(spy).toHaveBeenCalledTimes(1);
+            // });
 
             it('can be enabled without remounting', () => {
                 const positionObserver = getMountedComponentTree({ isEnabled: false });
