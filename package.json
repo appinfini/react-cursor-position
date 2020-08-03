@@ -4,10 +4,7 @@
   "description": "A React component that decorates its children with touch and mouse cursor coordinates, plotted relative to itself.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/appinfini/react-cursor-position.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "url": "https://github.com/appinfini/react-cursor-position.git"
   },
   "keywords": [
     "touch",
